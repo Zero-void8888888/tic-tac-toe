@@ -1,0 +1,115 @@
+#grid-container{
+    display:grid;
+    grid-template-rows:repeat(3, 200px );
+    grid-template-columns:repeat(3, 200px);
+}
+
+.cell{
+    border: 1px solid black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+}
+
+.winningCellPlayerOne{
+    border: 1px solid black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    background-color: darkred;
+}
+
+.winningCellPlayerTwo{
+    border: 1px solid black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    background-color: rgb(54, 54, 211);
+}
+
+#main{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#player-section{
+display:flex;
+justify-content: space-between;
+width: 600px;
+font-size: 2rem;
+}
+
+#player-one{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#player-two{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    
+    
+}
+
+.circle{
+    
+    
+}
+
+.circle2{
+    
+    
+}
+
+#player-one-circle{
+    border-radius: 999px;
+    background-color: red;
+    height:20px;
+    width:20px;
+    
+}
+
+#player-two-circle{
+    border-radius: 999px; 
+    background-color: rgb(54, 54, 211);;
+    height:20px;
+    width:20px;
+}
+
+#winning{
+    height: 200px;
+    width:400px;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2rem;
+    position:absolute;
+    background-color: rgb(190, 189, 189);
+}
+
+#buttonContainer{
+    height: 50px;
+    width: 150px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    
+    
+}
+
+#button{
+    height:50px;
+    width:100px;
+    font-size:1.5rem;
+}
